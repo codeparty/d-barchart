@@ -1,0 +1,23 @@
+{
+  "name": "d-barchart",
+  "description": "Example bar chart Derby component",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "derby",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codeparty/d-barchart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeparty/d-barchart/issues"
+  },
+  "author": "Ian Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^3.4.4"
+  },
+  "devDependencies": {}
+}
