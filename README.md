@@ -1,13 +1,13 @@
 d-barchart
 ==================
 
-Example d3 Bar chart Derby component.  
-also see:  
-[d-barchart-vanilla](http://github.com/codeparty/d-barchart-vanilla)  
-[d-d3-barchart](http://github.com/codeparty/d-d3-barchart)  
+Example d3 Bar chart Derby component.
+also see:
+[d-barchart-vanilla](http://github.com/derbyjs/d-barchart-vanilla)
+[d-d3-barchart](http://github.com/derbyjs/d-d3-barchart)
 
 # Usage
-[Example usage](http://github.com/codeparty/derby-examples/charts)
+[Example usage](http://github.com/derbyjs/derby-examples/charts)
 
 ## In your template
 ```
@@ -31,6 +31,6 @@ model.set("_page.margins", {top: 0, right: 20, bottom: 0, left: 20 });
 
 ## Implementation pattern
 
-In this example we take advantage of derby's bindings to associate our data with the DOM.  
-We use the __layout__ pattern where we transform input data into layout data, and then render the layout data.  
+In this example we take advantage of derby's bindings to associate our data with the DOM.
+We use the __layout__ pattern where we transform input data into layout data, and then render the layout data.
 The benefit here is we get server-side rendering and readable templates that react to changes in the data. The trade-off is that we lose d3's transitions because we don't use the selection api.

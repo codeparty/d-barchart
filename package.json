@@ -9,15 +9,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/codeparty/d-barchart.git"
+    "url": "git://github.com/derbyjs/d-barchart.git"
   },
   "bugs": {
-    "url": "https://github.com/codeparty/d-barchart/issues"
+    "url": "https://github.com/derbyjs/d-barchart/issues"
   },
   "author": "Ian Johnson",
   "license": "MIT",
   "dependencies": {
     "d3": "^3.4.4"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "homepage": "https://github.com/derbyjs/d-barchart#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
